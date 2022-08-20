@@ -1,0 +1,16 @@
+{$message}
+<form action="{$url}/index.php?a=admin&b=license" method="post">
+<div class="page-inner">
+	{$token_input}
+	<div class="page-input-container">
+		<div class="page-input-title">{$lng->license_key}</div>
+		<div class="page-input-content">
+			<input type="name" name="lk" autocomplete="off">
+		</div>
+	</div>
+</div>
+<div class="divider"></div>
+<div class="page-inner">
+	<div class="page-input-title"></div><input type="submit" value="{$lng->save_changes}">
+</div>
+</form>
